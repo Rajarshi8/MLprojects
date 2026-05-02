@@ -1,0 +1,51 @@
+DATA QUALITY REPORT
+
+Shape: (32561, 15)
+
+Missing Values:
+age               0
+workclass         0
+fnlwgt            0
+education         0
+education_num     0
+marital_status    0
+occupation        0
+relationship      0
+race              0
+sex               0
+capital_gain      0
+capital_loss      0
+hours_per_week    0
+native_country    0
+income            0
+dtype: int64
+
+Data Types:
+age                int64
+workclass         object
+fnlwgt             int64
+education         object
+education_num      int64
+marital_status    object
+occupation        object
+relationship      object
+race              object
+sex               object
+capital_gain       int64
+capital_loss       int64
+hours_per_week     int64
+native_country    object
+income            object
+dtype: object
+
+Summary Statistics:
+                age        fnlwgt  education_num  capital_gain  capital_loss  hours_per_week
+count  32561.000000  3.256100e+04   32561.000000  32561.000000  32561.000000    32561.000000
+mean      38.581647  1.897784e+05      10.080679   1077.648844     87.303830       40.437456
+std       13.640433  1.055500e+05       2.572720   7385.292085    402.960219       12.347429
+min       17.000000  1.228500e+04       1.000000      0.000000      0.000000        1.000000
+25%       28.000000  1.178270e+05       9.000000      0.000000      0.000000       40.000000
+50%       37.000000  1.783560e+05      10.000000      0.000000      0.000000       40.000000
+75%       48.000000  2.370510e+05      12.000000      0.000000      0.000000       45.000000
+max       90.000000  1.484705e+06      16.000000  99999.000000   4356.000000       99.000000
+
